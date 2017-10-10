@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2"
+    android:id="@+id/rl1"
+     >
+        
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_below="@+id/editText1"
+        android:ems="10" 
+        android:hint="2nd row" android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned"
+                android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText2"
+        android:ems="10" 
+        android:hint="3rd row" android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned"
+                android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="4th row" android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned" 
+                android:maxLength="9">
+
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:ems="10" 
+        android:hint="5th row" android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned"
+                android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:ems="10"
+        android:hint="8th row" 
+        android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned"
+                android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:ems="10" android:hint="9th row" 
+       android:gravity="center_horizontal"
+        android:textAlignment="center" 
+        android:inputType="numberSigned"
+                android:maxLength="9"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="7th row"
+        android:inputType="numberSigned"
+        android:maxLength="9"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="6th row"
+        android:inputType="numberSigned"
+        android:maxLength="9"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="CLEAR"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="SOLVE"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="1st row"
+        android:inputType="numberSigned"
+        android:maxLength="9"
+        android:textAlignment="center" >
+
+        <requestFocus />
+    </EditText>
+    
+</RelativeLayout>
