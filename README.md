@@ -1,0 +1,2 @@
+# Sudoku-Solver
+A standard Sudoku contains 81 cells, in a 9×9 grid, and has 9 boxes.Each cell may contain a number from one to nine, and each number can only occur once in each row, column, and box. A Sudoku starts with some cells containing numbers, and the goal is to solve the remaining cells. Proper Sudoku have one solution. There are several computer algorithms that will solve most 9×9 puzzles (n=9) in fractions of a second, but we have approached this problem by Backtracking.
